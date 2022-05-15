@@ -3,6 +3,6 @@ import App from './App';
 import {name as appName} from './app.json';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://8984-36-71-136-128.ngrok.io/api/'
+axios.defaults.baseURL = 'http://oenplayground.com/api/'
 
 AppRegistry.registerComponent(appName, () => App);
