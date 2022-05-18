@@ -31,6 +31,11 @@ const Style = StyleSheet.create({
          borderRadius: 5, 
          padding: 10
     },
+    wrapper: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+    },  
     identify:{
         flexDirection: "row",
         justifyContent: 'space-between'
@@ -40,11 +45,8 @@ const Style = StyleSheet.create({
         fontWeight: 'bold',
         marginTop: 10
     },
-    form: {
-        // flex: 1,
-    },
     formGroup: {
-        marginBottom: 10
+        marginBottom: 15
     },  
     inputText:{
         borderWidth: 1,
